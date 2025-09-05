@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    background-color: #000;
+    box-shadow: 0 0 3px -1px #000000eb;
+}
+
+.navbar-brand {
+    color: #00ff40;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+.navbar-brand:hover {
+    color: #00ff40;
+}
+
+.navbar-toggler i {
+    color: #fff;
+}
+
+.navbar.scrolled {
+    background-color: #08032a;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 17.5px;
+    font-weight: 500;
+    margin-right: 15px;
+    transition: all 0.5s ease;
+}
+
+.nav-link:hover {
+    color: #00ff80;
+}
+
+/* Media querie for navbar-toggler */
+@media (max-width:991px) {
+    .navbar {
+        height: auto;
+    }
+}
+
+/* Page Section */
+.my-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#home {
+    background-color: rgba(255, 0, 0, 0.396);
+}
+
+#about {
+    background-color: rgba(255, 255, 0, 0.473);
+}
+
+#project {
+    background-color: rgba(0, 128, 0, 0.456);
+}
+
+#contact {
+    background-color: rgba(0, 0, 255, 0.419);
+}
